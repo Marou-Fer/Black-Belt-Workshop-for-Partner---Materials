@@ -21,7 +21,7 @@
     {
       "kind": "styling",
       "tag": "com-sap-sac-sample-echarts-sankey-styling",
-      "url": "/StylingS.js",
+      "url": "/styling.js",
       "integrity": "",
       "ignoreIntegrity": true
     }

@@ -1,0 +1,89 @@
+{
+    "id": "com.demo.localVizAddOns.sap",
+    "version": "1.0.0",
+    "name": "Widget Customization Local Add-on Sap",
+    "description": "A widget customization add-on demo",
+    "icon": "undefined",
+    "vendor": "Demo",
+    "eula": "EULA",
+    "license": "1.0",
+    "extensions": [
+        {
+            "extensionPoint": "sap.addOn.viz.tooltip",
+            "webcomponents": [
+                {
+                    "kind": "main",
+                    "tag": "viz-tooltip-sap",
+                    "url": "/viz-tooltip.js",
+                    "integrity": "",
+                    "ignoreIntegrity": true
+                }
+            ],
+            "properties": {
+                "max": {
+                    "type": "number",
+                    "description": "The max of range value",
+                    "default": "100"
+                },
+                "color": {
+                    "type": "string",
+                    "description": "Text Color info",
+                    "default": "lightblue"
+                }
+            }           
+        },
+        {
+            "extensionPoint": "sap.addOn.viz.plotarea.general",
+            "webcomponents": [
+                {
+                    "kind": "main",
+                    "tag": "viz-plotarea-sap",
+                    "url": "/viz-plotarea.js",
+                    "integrity": "",
+                    "ignoreIntegrity": true
+                }
+            ],
+            "properties": {
+                "sapHideOriginalDataPointMarks": {
+                    "type": "boolean",
+                    "default": true
+                },
+                "sapHideOriginalDataPointLabels": {
+                    "type": "boolean",
+                    "default": true
+                },
+                "sapHideOriginalXAxisLabels": {
+                    "type": "boolean",
+                    "default": true
+                },
+                "sapHideOriginalYAxisLabels": {
+                    "type": "boolean",
+                    "default": true
+                },
+                "sapHideOriginalXAxisStackLabels": {
+                    "type": "boolean",
+                    "default": true
+                },
+                "sapHideOriginalYAxisStackLabels": {
+                    "type": "boolean",
+                    "default": true
+                },
+                "rounded": {
+                    "type": "boolean",
+                    "description": "Should bar/column be rounded",
+                    "default": true
+                },
+                "dataMarkerSize": {
+                    "type": "number",
+                    "description": "The percentage of data marker size",
+                    "default": 100
+                },
+                "axisLabelColor": {
+                    "type": "string",
+                    "description": "The chart axis label color",
+                    "default": "#1D2D3E"
+                }
+            }
+        }        
+    ]
+}

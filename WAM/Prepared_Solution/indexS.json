@@ -1,7 +1,7 @@
 {
-    "id": "com.demo.localVizAddOns.sap",
+    "id": "com.demo.localVizAddOns",
     "version": "1.0.0",
-    "name": "Widget Customization Local Add-on Sap",
+    "name": "Widget Customization Local Add-on Sap solution",
     "description": "A widget customization add-on demo",
     "icon": "undefined",
     "vendor": "Demo",
@@ -13,7 +13,7 @@
             "webcomponents": [
                 {
                     "kind": "main",
-                    "tag": "viz-tooltip-sap",
+                    "tag": "viz-tooltip",
                     "url": "/viz-tooltip.js",
                     "integrity": "",
                     "ignoreIntegrity": true
@@ -37,7 +37,7 @@
             "webcomponents": [
                 {
                     "kind": "main",
-                    "tag": "viz-plotarea-sap",
+                    "tag": "viz-plotarea",
                     "url": "/viz-plotarea.js",
                     "integrity": "",
                     "ignoreIntegrity": true

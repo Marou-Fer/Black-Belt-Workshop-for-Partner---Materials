@@ -1,4 +1,4 @@
-// Load the third-party library echarts via $.getScript //
+// Definie the Loading function of the third-party library echarts via $.getScript //
 
 
 
@@ -19,7 +19,7 @@
       this._echart = null
     }
 
-// Adding the data binding function //
+// Adding the data binding function and load the Echart library//
     async render (dataBinding, props) {
       
 

@@ -14,14 +14,14 @@
     {
       "kind": "main",
       "tag": "com-sap-sac-sample-echarts-sankey",
-      "url": "/main.js",
+      "url": "/mainS.js",
       "integrity": "",
       "ignoreIntegrity": true
     },
     {
       "kind": "styling",
       "tag": "com-sap-sac-sample-echarts-sankey-styling",
-      "url": "/styling.js",
+      "url": "/stylingS.js",
       "integrity": "",
       "ignoreIntegrity": true
     }

@@ -1,3 +1,4 @@
+var ROOT_PATH = 'https://marou-fer.github.io/Black-Belt-Workshop-for-Partner---Materials/Gantt%20Chart';
 var getScriptPromisify = (src) => {
     return new Promise(resolve => {
       $.getScript(src, resolve)

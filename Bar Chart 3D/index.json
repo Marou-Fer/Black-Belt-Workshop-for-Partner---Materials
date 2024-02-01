@@ -1,0 +1,58 @@
+{
+    "eula": "",
+    "vendor": "SAP",
+    "license": "",
+    "id": "com.sap.sac.sample.echarts.bar3d",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABJ0lEQVR4nGMwSWi/bZLY/h8nTmh/wIAPmCS0/cIrDzSEtgYYJ7bdwucFoPx9vAZQDICB1Am0aRVOnNDWQ8CAtl8m8R0RxgntoTjwAZA6+/p6FpwG4JQEAuO0ehGTxLYdQNekYTcgse0L0Bur0Z1unNDWqJI7kd04sX070BWbjdN6RHSj2gWRsUVoLyeDUXyHBTanmyW26wMNToLERPtHIP0OHQMtucBgmtRuh9P/0X2SQHoJyBUg18BcjcyGBCLOGGivAoUP0JtLgQalgNSHhq5iBqUNo8Q2H2gY4Etp/xnR/Q3CQD0uQOe/NY1v8wAbgM35JknthsYJHVHY/A7GQJcDvfYIlJRbcSSgPob6eibsMdfuApR/DQo/3K7HA4AGnDWOb7UGsQHB3u+vXyIovgAAAABJRU5ErkJggg==",
+    "version": "1.0.0",
+    "supportsMobile": true,
+    "supportsLinkedAnalysisFilterOnSelection": true,
+    "name": "EChart Bar 3D",
+    "newInstancePrefix": "EChartsBar3D",
+    "description": "A Sample Bar Chart 3D for reading data only",
+    "webcomponents": [
+      {
+        "kind": "main",
+        "tag": "com-sap-sac-sample-echarts-bar3d",
+        "url": "/main.js",
+        "integrity": "",
+        "ignoreIntegrity": true
+      }
+    ],
+    "properties": {
+      "width": {
+        "type": "integer",
+        "default": 600
+      },
+      "height": {
+        "type": "integer",
+        "default": 320
+      }
+    },
+    "events": {},
+    "methods": {
+          "getDataSource": {
+              "parameters": [],
+              "body": "return this.dataBindings.getDataBinding('dataBinding').getDataSource();",
+              "returnType": "DataSource"
+          }
+    },
+    "types": {},
+    "dataBindings": {
+      "dataBinding": {
+        "feeds": [
+          {
+            "id": "dimensions",
+            "description": "Dimensions",
+            "type": "dimension"
+          },
+          {
+            "id": "measures",
+            "description": "Measures",
+            "type": "mainStructureMember"
+          }
+        ]
+      }
+    }
+  }
+  

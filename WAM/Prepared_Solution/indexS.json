@@ -14,7 +14,7 @@
                 {
                     "kind": "main",
                     "tag": "viz-tooltip",
-                    "url": "/viz-tooltip.js",
+                    "url": "/viz-tooltipS.js",
                     "integrity": "",
                     "ignoreIntegrity": true
                 }
@@ -38,7 +38,7 @@
                 {
                     "kind": "main",
                     "tag": "viz-plotarea",
-                    "url": "/viz-plotarea.js",
+                    "url": "/viz-plotareaS.js",
                     "integrity": "",
                     "ignoreIntegrity": true
                 }

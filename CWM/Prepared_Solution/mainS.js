@@ -1,5 +1,5 @@
 // Definie the Loading function of the third-party library echarts via $.getScript //
-$.getScript('https://customwidgetcollectionprod.cfapps.eu10-004.hana.ondemand.com/fixReactUpgradeIssue.js');
+//$.getScript('https://customwidgetcollectionprod.cfapps.eu10-004.hana.ondemand.com/fixReactUpgradeIssue.js');
 var getScriptPromisify = (src) => {
   return new Promise((resolve) => {
     $.getScript(src, resolve);
@@ -50,7 +50,7 @@ var getScriptPromisify = (src) => {
 // Adding the data binding function and load the Echart library//
 
     async render (dataBinding, props) {
-      await getScriptPromisify("https://cdn.staticfile.org/echarts/5.3.0/echarts.min.js");
+      await getScriptPromisify("https://cdnjs.cloudflare.com/ajax/libs/echarts/5.0.0/echarts.min.js");
       this.dispose()
 
       if (dataBinding.state !== 'success') { return }

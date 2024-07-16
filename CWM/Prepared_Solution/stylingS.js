@@ -1,4 +1,3 @@
-$.getScript('https://customwidgetcollectionprod.cfapps.eu10-004.hana.ondemand.com/fixReactUpgradeIssue.js');
 (function() {
     let template = document.createElement("template");
     template.innerHTML = `

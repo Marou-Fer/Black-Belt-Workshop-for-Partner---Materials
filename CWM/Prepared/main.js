@@ -1,6 +1,7 @@
 // Definie the Loading function of the third-party library echarts via $.getScript //
 
 
+
 (function () {
 
 // Parse dimensions, measures, data from data binding results //

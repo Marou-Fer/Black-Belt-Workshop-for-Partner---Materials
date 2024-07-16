@@ -1,7 +1,6 @@
 // Definie the Loading function of the third-party library echarts via $.getScript //
 
 
-//$.getScript('https://customwidgetcollectionprod.cfapps.eu10-004.hana.ondemand.com/fixReactUpgradeIssue.js')
 (function () {
 
 // Parse dimensions, measures, data from data binding results //

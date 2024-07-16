@@ -14,7 +14,7 @@
     {
       "kind": "main",
       "tag": "com-sap-sac-sample-echarts-sankey",
-      "url": "/mainS.js",
+      "url": "/main.js",
       "integrity": "",
       "ignoreIntegrity": true
     },
